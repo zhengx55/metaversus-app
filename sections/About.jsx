@@ -31,6 +31,12 @@ const About = () => (
         <span className='font-extrabold text-white'>explore</span> the madness
         of the metaverse by scrolling down
       </motion.p>
+      <motion.img
+        variants={fadeIn('up', 'tween', 0.3, 1)}
+        src='/arrow-down.svg'
+        alt='arrow down'
+        className='mt-[28px] h-[28px] w-[18px] object-contain'
+      />
     </motion.div>
   </section>
 );
